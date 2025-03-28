@@ -79,4 +79,4 @@ app.put('/update', async (req, res)=>{
     }
 })
 
-module.exports(app)
+app.listen(3000)
