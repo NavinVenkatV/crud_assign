@@ -12,6 +12,7 @@ const connectToMongoDB = async () => {
     }
 };
 
+
 connectToMongoDB();
 
 const userSchema = new mongoose.Schema({
